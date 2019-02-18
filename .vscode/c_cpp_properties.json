@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 Debug",
+            "includePath": [
+                
+                "${workspaceRoot}/Core/Inc",
+                "${workspaceRoot}/Drivers/CMSIS/Include/",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceRoot}/Drivers/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceRoot}/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "${workspaceRoot}/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+                "${workspaceRoot}/Middlewares/USBMIDI/Inc",
+                "${workspaceRoot}/Project",
+                "${workspaceRoot}/USB_DEVICE/App",
+                "${workspaceRoot}/USB_DEVICE/Target",
+                "C:/STM/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/8.2.1/include"
+            ],
+            "defines": [
+                "DEBUG",
+                "DEFAULT_STACK_SIZE=2048",
+                "HSE_VALUE=8000000",
+                "OS_INCLUDE_STARTUP_INIT_MULTIPLE_RAM_SECTIONS",
+                "PB_MSGID",
+                "STM32F103",
+                "STM32F103xB",
+                "USE_DEVICE_MODE",
+                "USE_FULL_ASSERT",
+                "USE_HAL_DRIVER",
+                "USE_USB_OTG_FS"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
